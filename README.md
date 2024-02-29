@@ -29,15 +29,15 @@ cd visioconf
 **Mode DEV** :
 
 ```bash
-cd src
-docker-compose -f compose.yml -f compose.dev.yml up
+cd src/frontend && npm install & npm run dev
+cd src/backend && npm install & npm start
 ```
 
 **Mode PROD** :
 
 ```bash
 cd src
-docker-compose -f compose.yml -f compose.prod.yml up
+docker compose -f compose.yml up -d --build
 ```
 
 ## Utilisation
