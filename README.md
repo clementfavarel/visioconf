@@ -2,7 +2,8 @@
 
 ## Description
 
-Ce projet est une application web de visio conférence développée dans le cadre du projet de la formation MMI de Toulon. MMI VISIOCONF est développée en fullstack JS avec NodeJS, ExpressJS, Socket.io, MongoDB et ReactJS. Elle s'inspire grandement des applications de communication telles que Discord ou encore Teams et elle est développée dans un objectif "open source" et peut être utilisée par n'importe qui.
+Ce projet consiste à développer une application web qui s'apparente à d'autres applications comme Teams ou Discord.<br>
+Le projet est porté et réalisé par des étudiants de la formation MMI de l'Université de Toulon.
 
 ## Prérequis
 
@@ -47,6 +48,7 @@ Une fois le projet lancé, vous pouvez vous rendre sur [http://localhost:3000](h
 
 -   Docker
 -   Docker-compose
+-   Nginx
 -   NodeJS
 -   ReactJS
 -   ExpressJS
